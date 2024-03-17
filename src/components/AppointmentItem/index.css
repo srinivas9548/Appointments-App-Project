@@ -1,0 +1,71 @@
+.list-container {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 16px;
+  min-width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    min-width: 334px;
+  }
+}
+
+.appointment-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #171f46;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 22px;
+  }
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .star-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.date {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #b5b7c4;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 16px;
+  }
+}
